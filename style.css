@@ -346,6 +346,19 @@ nav {
     transition: all 700ms;
 }
 
+.developer{
+    background: var(--main-color);
+    color: var(--white);
+    margin: 1em;
+    padding: 1em 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.developer a{
+    font-weight: 700;
+}
+
 /* -----------------------Media-Query------------------------- */
 
 @media only screen and (max-width: 600px) {
